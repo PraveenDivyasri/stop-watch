@@ -1,0 +1,46 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffd65e+0,febf04+100;Yellow+3D+%232 */
+background: linear-gradient(to bottom,  #ffd65e 0%,#febf04 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+h1{
+  margin-bottom: 160px;
+}
+.container
+{
+  display: flex;
+  flex-direction: column;
+  gap:.5rem;
+}
+.display{
+  
+  text-align: center;
+}
+span
+{
+  font-size: 20px;
+  font-weight: 600;
+}
+button{
+  width: 120px;
+  height: 36px;
+  margin: 20px;
+  background-color: rgb(214, 214, 87);
+  border: 2px solid rgb(54, 151, 151);
+  border-radius: 10px;
+  color: rgb(9, 98, 233);
+  font-size: 20px;
+  font-weight: 700;
+}
